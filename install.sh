@@ -22,4 +22,7 @@ CONFIG ='{
 
 mkdir -p /etc/shadowsocks
 echo $CONFIG > /etc/shadowsocks/config.json
-~/ss-fly/ss-fly.sh
+~/ss-fly/ss-fly.sh -bbr
+~/ss-fly/ss-fly.sh -i password 443
+
+echh $CONFIG > /etc/shadowsocks/shadowsocks.json
